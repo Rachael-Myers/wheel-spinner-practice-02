@@ -14,14 +14,15 @@ body{
 }
 
 .container{
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 1000px;
     background-color: #ccc;
     border-radius: 50%;
-    border: 15px solid #dde;
+    border: 30px solid #dde;
     position: relative;
     overflow: hidden;
     transition: 5s;
+   
 }
 
 .container div{
@@ -29,7 +30,7 @@ body{
     width: 200px;
     position: absolute;
     clip-path: polygon(100% 0, 50% 100%, 0 0);
-    transform: translate(-50%);
+    transform: translate(-50% -50%);
     transform-origin: bottom;
     text-align: center;
     display: flex;
@@ -38,7 +39,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
-    color: #fff;
+    color: rgb(237, 17, 17);
     left: 135px;
 }
 
@@ -66,7 +67,7 @@ body{
     background-color: lightgreen;
     transform: rotate(75deg);
 }
-.container .sever{
+.container .seven{
     background-color: lightgrey;
     transform: rotate(90deg);
 }
